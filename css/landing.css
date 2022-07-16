@@ -17,6 +17,15 @@
     border-radius: 8px;
 }
 
+#left-button:hover {
+    background-color: rgb(5, 81, 232);
+    color: white;
+}
+
+#right-button:hover {
+    background-color: white;
+    color:rgb(5, 81, 232);
+}
 
 
 

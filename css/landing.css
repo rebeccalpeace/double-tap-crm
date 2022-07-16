@@ -6,27 +6,26 @@
     font-size: 10px;
 }
 
-#right-button {
-    background-color: rgb(5, 81, 232);
+.button-radius {
     border-radius: 8px;
+    font-size: 12px;
 }
 
-#left-button {
-    border-color: rgb(5, 81, 232);
-    color: rgb(5, 81, 232);
-    border-radius: 8px;
+#title {
+    font-size: 42px;
 }
 
-#left-button:hover {
-    background-color: rgb(5, 81, 232);
-    color: white;
+.p-size {
+    font-size: 13px;
 }
 
-#right-button:hover {
-    background-color: white;
-    color:rgb(5, 81, 232);
+.p-color {
+    color: rgb(159, 159, 159);
 }
 
+.tiny-font {
+    font-size: 8px;
+}
 
 
 @media (min-width: 0px) {
@@ -34,12 +33,9 @@
         font-size: 9px;
     }
     #right-button {
-        background-color: rgb(5, 81, 232);
         visibility: hidden;
     }
     #left-button {
-        border-color: rgb(5, 81, 232);
-        color: rgb(5, 81, 232);
         visibility: hidden;
     }
     #logo {
@@ -57,12 +53,9 @@
         font-size: 9px;
     }
     #right-button {
-        background-color: rgb(5, 81, 232);
         visibility: hidden;
     }
     #left-button {
-        border-color: rgb(5, 81, 232);
-        color: rgb(5, 81, 232);
         visibility: hidden;
     }
     #logo {
@@ -79,12 +72,9 @@
         font-size: 8px;
     }
     #right-button {
-        background-color: rgb(5, 81, 232);
         visibility: visible;
     }
     #left-button {
-        border-color: rgb(5, 81, 232);
-        color: rgb(5, 81, 232);
         visibility: visible;
     }
     #logo {
@@ -100,12 +90,9 @@
         font-size: 9px;
     }
     #right-button {
-        background-color: rgb(5, 81, 232);
         visibility: visible;
     }
     #left-button {
-        border-color: rgb(5, 81, 232);
-        color: rgb(5, 81, 232);
         visibility: visible;
     }
     #logo {
@@ -121,12 +108,9 @@
         font-size: 10px;
     }
     #right-button {
-        background-color: rgb(5, 81, 232);
         visibility: visible;
     }
     #left-button {
-        border-color: rgb(5, 81, 232);
-        color: rgb(5, 81, 232);
         visibility: visible;
     }
     #logo {
@@ -142,12 +126,9 @@
         font-size: 11px;
     }
     #right-button {
-        background-color: rgb(5, 81, 232);
         visibility: visible;
     }
     #left-button {
-        border-color: rgb(5, 81, 232);
-        color: rgb(5, 81, 232);
         visibility: visible;
     }
     #logo {

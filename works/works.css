@@ -1,0 +1,35 @@
+/* P2 section: line, heading, paragraph */
+.p2 {
+    color: black;
+    padding: .5rem 3rem 3rem;
+    position: relative;
+}
+/* section-break for P2 section */
+    .p2-section-break {
+        border: 0;
+        border-top: 1px solid;
+        display: block;
+        height: 0;
+        margin: 3rem auto 3rem;
+        text-align: center;
+        width: 50%;
+    }
+    .p2-head {
+        border: 0;
+        border-bottom: 0;
+        display: block;
+        height: 0;
+        margin: 5em auto 5em;
+        text-align: center;
+        width: 50%; 
+    }
+    .p2-par {
+    
+    }
+/* P4 section: paragraph */
+.p4 {
+    
+}
+    .p4-par {
+    
+    }

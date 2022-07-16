@@ -1,7 +1,6 @@
 /* P2 section: line, heading, paragraph */
 .p2 {
     color: black;
-    padding: .5rem 3rem 3rem;
     position: relative;
 }
 /* section-break for P2 section */
@@ -14,22 +13,33 @@
         text-align: center;
         width: 50%;
     }
-    .p2-head {
+/* Fix spacing between section-break & title!*/
+
+    .p2-title{
         border: 0;
         border-bottom: 0;
         display: block;
         height: 0;
-        margin: 5em auto 5em;
+        margin: 3rem auto 3rem;
         text-align: center;
         width: 50%; 
     }
     .p2-par {
-    
+        padding: .5rem 3rem 3rem;
+        margin: 3rem auto 3rem;
+        width: 45%;
+        text-align: center;
+        align-content: center;
     }
+
 /* P4 section: paragraph */
 .p4 {
-    
-}
+    color: black;
+    position: relative;
+    }
     .p4-par {
-    
+        padding: .5rem 3rem 3rem;
+        margin: 3rem auto 3rem;
+        width: 45%;
+        text-align: center;
     }

@@ -1,0 +1,74 @@
+.p1 {
+    margin: 1px;
+    padding: 15px;
+    width: 100%;
+    min-height:100%;
+    display: flex;/*keep this!*/
+    flex-direction: row;/*keep this!*/
+    align-items: stretch;/*keep this!*/
+    justify-content: center;/*keep this!*/
+}
+
+.p1-text {
+    display: flex;/*keep this!*/
+    flex-direction: column;/*keep this!*/
+    flex-wrap: wrap;
+    width: 70%;/*keep this!*/
+    position: relative;  
+    justify-content: flex-start;
+    align-items: flex-start;/*keep this!*/
+}
+    
+.p1-par {
+    width: 75%;
+    justify-content: flex-start;
+    text-align: flex-start;
+    align-content: flex-start;
+    color: gray;
+}
+
+.p1-btns {
+    display: flex;/*keep this!*/
+    flex-direction: row;/*keep this!*/
+    flex-wrap: nowrap;/*keep this!*/
+    justify-content: flex-start;/*keep this!*/
+    align-content: space-around;
+}
+
+    .button1 {
+        margin: 0;
+        justify-content: flex-start;
+        padding-right: 10px;
+    }
+
+    .button2 {
+        padding-left: 10px;
+    }
+
+.link-msg {
+    color: gray;
+}
+
+.focus-footer {
+    display: flex;/*keep this!*/
+    flex-direction: row;/*keep this!*/
+    flex-wrap: nowrap;/*keep this!*/
+    justify-content: space-between;
+} 
+
+    .oval {
+        background-color: blue;
+        width: 10px;
+        height: 15px;
+        border-radius: 50px/75px;
+    }
+
+.p1-image {/*keep this!*/
+    order: 1;
+    flex: 1, 0, auto;
+    align-self: flex-start;
+    margin:0;
+    padding: 5px;
+    width: 50%;
+    height: auto;   
+}

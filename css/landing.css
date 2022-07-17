@@ -37,6 +37,44 @@ hr {
     margin-right: auto;
 }
 
+.big-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 4%;
+}
+
+.big-container p {
+   margin-bottom: 7px;
+}
+
+.big-container img {
+    margin-bottom: 10px;
+}
+
+.small-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 80px;
+    height: 90px;
+    border: solid lightgray 1px;
+    border-radius: 8px;
+    font-size: 10px;
+    color: darkgray;
+}
+
+#money-card {
+    background-color: #0d6efd;
+    color: white;
+}
+
+#money-sign {
+    border-radius: 50%;
+}
+
 @media (min-width: 0px) {
     #nav-text {
         font-size: 9px;

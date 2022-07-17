@@ -2,10 +2,6 @@
     color: black;
 }
 
-.button-text {
-    font-size: 10px;
-}
-
 .button-radius {
     border-radius: 8px;
     font-size: 12px;
@@ -185,7 +181,7 @@ footer {
         visibility: hidden;
     }
     #logo {
-        position: fixed;
+        position: absolute;
         width: 100px;
         margin-top: 0;
     }
@@ -205,7 +201,7 @@ footer {
         visibility: hidden;
     }
     #logo {
-        position: fixed;
+        position: absolute;
     }
     #logo-padding {
         padding-bottom: 26px;
@@ -216,6 +212,9 @@ footer {
 @media (min-width: 768px) {
     #nav-text {
         font-size: 8px;
+    }
+    .button-text {
+        font-size: 9px;
     }
     #right-button {
         visibility: visible;
@@ -235,6 +234,9 @@ footer {
     #nav-text {
         font-size: 9px;
     }
+    .button-text {
+        font-size: 10px;
+    }
     #right-button {
         visibility: visible;
     }
@@ -251,6 +253,9 @@ footer {
 
 @media (min-width: 1200px) {
     #nav-text {
+        font-size: 10px;
+    }
+    .button-text {
         font-size: 10px;
     }
     #right-button {
@@ -270,6 +275,9 @@ footer {
 @media (min-width: 1400px) {
     #nav-text {
         font-size: 11px;
+    }
+    .button-text {
+        font-size: 10px;
     }
     #right-button {
         visibility: visible;

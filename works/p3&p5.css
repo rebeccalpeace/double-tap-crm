@@ -1,11 +1,31 @@
 .p3 {
+    background-color: blue;
+    color: white;
     position: relative;
 }
 
+/* Could not get html to connect to images in image folder; moved all images inside works folder*/
+.image {
+}
 
+.bluebox {
+}
 
+.p3-title {
+}
 
+.p3-par {
+
+}
 
 .p5 {
     position: relative;
+}
+
+.p5-title {
+
+}
+
+.p5-par {
+
 }

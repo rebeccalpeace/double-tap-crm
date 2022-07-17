@@ -1,14 +1,47 @@
-.p3 {
+.p1 {
     margin: 1px;
     padding: 0;
     width: 100%;
     min-height:100%;
     display: flex;/*keep this!*/
     flex-direction: row;/*keep this!*/
-    flex-wrap: nowrap;/*keep this!*/
     align-items: stretch;/*keep this!*/
     justify-content: center;/*keep this!*/
-    border-radius: 25px; /*keep this!*/
-    overflow: hidden;/*keep this!*/
-    border-style: solid 5px gray;
+}
+
+.p1-text {
+    display: flex;/*keep this!*/
+    flex-direction: column;/*keep this!*/
+    flex-wrap: wrap;
+    width: 70%;/*keep this!*/
+    position: relative;  
+    justify-content: flex-start;
+    align-items: flex-start;/*keep this!*/
+}
+    
+.p1-par {
+    
+    width: 75%;
+    justify-content: flex-start;
+    text-align: flex-start;
+    align-content: flex-start;
+    /*width: 45%;
+    align-items: center;*/
+}
+
+    .oval {
+        background-color: blue;
+        width: 10px;
+        height: 15px;
+        border-radius: 50px/75px;
+    }
+
+.p1-image {/*keep this!*/
+    order: 1;
+    flex: 1, 0, auto;
+    align-self: flex-start;
+    margin:0;
+    padding: 5px;
+    width: 50%;
+    height: auto;   
 }

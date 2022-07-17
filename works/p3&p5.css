@@ -23,33 +23,37 @@
     }
 
     .p3-text {
-        order: 1;/*keep this!*/
-        margin: 0; /*keep this!*/
-        padding: 15px;/*keep this!*/
-        width: 60%;/*keep this!*/
-        position: relative;  
         display: flex;/*keep this!*/
         flex-direction: column;/*keep this!*/
+        column-gap:10px;
+        padding: 20px;/*keep this!*/
+        width: 60%;/*keep this!*/
+        position: relative;  
         justify-content: center;
         align-content: space-between;
         align-items: center;/*keep this!*/
         background-color: blue;/*keep this!*/
         color: white;/*keep this!*/
     }
-  
-    .p2-title{
-        order: 0;
+  /*When Go Live hiccups: http://127.0.0.1:5500/[file-name]*/
+    .p3-title{
+        border: 0;
+        border-bottom: 0;
+        height: 0;
         margin: 3rem auto 3rem;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+       /* justify-content: center;
+        align-items: center;*/
     }
-    .p2-par {
-        order: 1;
+    .p3-par {
         padding: .5rem 3rem 3rem;
         margin: 3rem auto 3rem;
         width: 45%;
+        text-align: center;
+        align-content: center;
+        /*width: 45%;
         justify-content: center;
-        align-items: center;
+        align-items: center;*/
     }
   
   

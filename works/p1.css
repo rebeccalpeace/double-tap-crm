@@ -1,6 +1,6 @@
 .p1 {
     margin: 1px;
-    padding: 0;
+    padding: 15px;
     width: 100%;
     min-height:100%;
     display: flex;/*keep this!*/
@@ -20,14 +20,36 @@
 }
     
 .p1-par {
-    
     width: 75%;
     justify-content: flex-start;
     text-align: flex-start;
     align-content: flex-start;
-    /*width: 45%;
-    align-items: center;*/
 }
+
+.p1-btns {
+    display: flex;/*keep this!*/
+    flex-direction: row;/*keep this!*/
+    flex-wrap: nowrap;/*keep this!*/
+    justify-content: flex-start;/*keep this!*/
+    align-content: space-around;
+}
+
+    .button1 {
+        margin: 0;
+        justify-content: flex-start;
+        padding-right: 10px;
+    }
+
+    .button2 {
+        padding-left: 10px;
+    }
+
+.focus-footer {
+    display: flex;/*keep this!*/
+    flex-direction: row;/*keep this!*/
+    flex-wrap: nowrap;/*keep this!*/
+    justify-content: space-between;
+} 
 
     .oval {
         background-color: blue;

@@ -39,11 +39,15 @@
   
     .p2-title{
         order: 0;
+        margin: 3rem auto 3rem;
         justify-content: center;
         align-items: center;
     }
     .p2-par {
         order: 1;
+        padding: .5rem 3rem 3rem;
+        margin: 3rem auto 3rem;
+        width: 45%;
         justify-content: center;
         align-items: center;
     }

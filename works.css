@@ -291,3 +291,15 @@
         justify-content: center;
         align-items: center;*/
     }
+
+/* P4 section: paragraph */
+.p4 {
+    color: black;
+    position: relative;
+    }
+    .p4-par {
+        padding: .5rem 3rem 3rem;
+        margin: 3rem auto 3rem;
+        width: 45%;
+        text-align: center;
+    }

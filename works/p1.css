@@ -24,6 +24,7 @@
     justify-content: flex-start;
     text-align: flex-start;
     align-content: flex-start;
+    color: gray;
 }
 
 .p1-btns {
@@ -43,6 +44,10 @@
     .button2 {
         padding-left: 10px;
     }
+
+.link-msg {
+    color: gray;
+}
 
 .focus-footer {
     display: flex;/*keep this!*/

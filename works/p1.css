@@ -1,0 +1,14 @@
+.p3 {
+    margin: 1px;
+    padding: 0;
+    width: 100%;
+    min-height:100%;
+    display: flex;/*keep this!*/
+    flex-direction: row;/*keep this!*/
+    flex-wrap: nowrap;/*keep this!*/
+    align-items: stretch;/*keep this!*/
+    justify-content: center;/*keep this!*/
+    border-radius: 25px; /*keep this!*/
+    overflow: hidden;/*keep this!*/
+    border-style: solid 5px gray;
+}

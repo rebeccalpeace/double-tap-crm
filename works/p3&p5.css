@@ -3,16 +3,16 @@
     padding: 0;
     width: 100%;
     min-height:100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    justify-content: center;
-    border-radius: 25px; 
-    overflow: hidden;
+    display: flex;/*keep this!*/
+    flex-direction: row;/*keep this!*/
+    flex-wrap: nowrap;/*keep this!*/
+    align-items: stretch;/*keep this!*/
+    justify-content: center;/*keep this!*/
+    border-radius: 25px; /*keep this!*/
+    overflow: hidden;/*keep this!*/
 }
 
-    .p3-image {
+    .p3-image {/*keep this!*/
         order: 0;
         flex: 0, 1, auto;
         align-self: flex-start;
@@ -23,14 +23,15 @@
     }
 
     .p3-text {
-        order: 1;
+        order: 1;/*keep this!*/
         margin: 0; /*keep this!*/
         padding: 15px;/*keep this!*/
         width: 60%;/*keep this!*/
         position: relative;  
         display: flex;/*keep this!*/
         flex-direction: column;/*keep this!*/
-        justify-content: space-around; /*keep this!*/
+        justify-content: center;
+        align-content: space-between;
         align-items: center;/*keep this!*/
         background-color: blue;/*keep this!*/
         color: white;/*keep this!*/

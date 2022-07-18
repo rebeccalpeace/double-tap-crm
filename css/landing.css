@@ -4,6 +4,23 @@
     color: black;
 }
 
+.link-color-1 {
+    text-decoration: none;
+}
+
+.link-color-1:hover {
+    color: white;
+}
+
+.link-color-2 {
+    text-decoration: none;
+    color: white;
+}
+
+.link-color-2:hover {
+    color: white;
+}
+
 .button-radius {
     border-radius: 8px;
     font-size: 12px;
@@ -603,7 +620,3 @@ footer {
         align-items: center;*/
     }   
 
-
-    /* css for sign-in.html */
-
-    
